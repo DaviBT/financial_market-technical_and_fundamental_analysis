@@ -119,7 +119,7 @@ def update_graph(option_slctd):
         high=df['High'],
         low=df['Low'],
         close=df['Close'],
-        name='Candlestick'
+        name='Ação'
     ))
     # Moving Average 7 days
     fig.add_trace(go.Scatter(
