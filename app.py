@@ -126,7 +126,7 @@ def update_graph(option_slctd):
         x=df['Date'],
         y=df['SMA_7'],
         mode='lines',
-        name='Média Móvel 7 days',
+        name='Média Móvel 7 dias',
         line=dict(color='orange', width=1)
     ))
 
@@ -135,7 +135,7 @@ def update_graph(option_slctd):
         x=df['Date'],
         y=df['SMA_25'],
         mode='lines',
-        name='Média Móvel 25 days',
+        name='Média Móvel 25 dias',
         line=dict(color='blue', width=1)
     ))
 
